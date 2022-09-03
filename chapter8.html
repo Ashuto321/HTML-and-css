@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transformation and animation</title>
+    <style>
+        .container{
+            background-color: aqua;
+            height: 455px;
+        }
+        .box{
+            height: 123px;
+            width: 223px;
+            display: inline-block;
+            /* border: 2px solid black; */
+             /* transform: translate(38px,56px) rotate(45deg); */
+            /* transform-origin:0;   */
+            /* transform: scaleX(2); */
+             /* transform: scale(2,4);  */
+            /* transform: skew(4deg,6deg);  */
+            /* transform: matrix();  */
+            /* transform: rotateX(83deg); */
+
+        }
+        img:hover{
+            width: 56px;
+        }
+        img{
+            width: 455px;
+            transition-property: width;
+            transition-duration: 3s;
+            transition-timing-function: ease-in-out;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <img src="/css/images-1.jpeg">
+        
+        </div>
+    </div>
+    
+</body>
+</html>
